@@ -17,13 +17,13 @@ The product follows a microservices architecture with the following key componen
 
 ### Overall Architecture Diagram
 
-![Overall Architecture](architecture-diagram.png)
+![Overall Architecture](https://github.com/tekdi/shiksha-setup/blob/main/architecture-diagram.jpg)
 
 *The overall architecture diagram shows the complete ecosystem with all microservices, their interactions, and the frontend components. The diagram illustrates how the Interface Service acts as a middleware layer, connecting the frontend to various specialized services including user management, content management, tracking, events, attendance, and notifications.*
 
 ### Frontend Architecture Diagram
 
-![Frontend Architecture](frontend-architecture-diagram.png)
+![Frontend Architecture](https://github.com/tekdi/shiksha-setup/blob/main/frontend-architecture-diagram.jpg)
 
 *The frontend architecture diagram demonstrates the micro-frontend (MFE) structure using Docker containers and Node.js modules. It shows how different workspaces handle specific functionalities like user management, content creation, course consumption, login/registration, attendance, and events. The architecture uses both dynamic routing and iframe-based component integration, with a shared library containing common components and structures.*
 
